@@ -15,6 +15,8 @@
 		865C329B1B720CEF00FCAD25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865C329A1B720CEF00FCAD25 /* Images.xcassets */; };
 		865C329E1B720CEF00FCAD25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865C329C1B720CEF00FCAD25 /* LaunchScreen.xib */; };
 		865C32AA1B720CEF00FCAD25 /* RadiobuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865C32A91B720CEF00FCAD25 /* RadiobuttonTests.m */; };
+		865C32B41B7212D300FCAD25 /* radioButtonActiveHover.png in Resources */ = {isa = PBXBuildFile; fileRef = 865C32B31B7212D300FCAD25 /* radioButtonActiveHover.png */; };
+		865C32B61B7212E200FCAD25 /* radioButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 865C32B51B7212E200FCAD25 /* radioButtonDisabled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		865C32A31B720CEF00FCAD25 /* RadiobuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadiobuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		865C32A81B720CEF00FCAD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		865C32A91B720CEF00FCAD25 /* RadiobuttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiobuttonTests.m; sourceTree = "<group>"; };
+		865C32B31B7212D300FCAD25 /* radioButtonActiveHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radioButtonActiveHover.png; path = ../../../image/radioButtonActiveHover.png; sourceTree = "<group>"; };
+		865C32B51B7212E200FCAD25 /* radioButtonDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radioButtonDisabled.png; path = ../../../image/radioButtonDisabled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		865C32891B720CEE00FCAD25 /* Radiobutton */ = {
 			isa = PBXGroup;
 			children = (
+				865C32B51B7212E200FCAD25 /* radioButtonDisabled.png */,
+				865C32B31B7212D300FCAD25 /* radioButtonActiveHover.png */,
 				865C328E1B720CEE00FCAD25 /* AppDelegate.h */,
 				865C328F1B720CEE00FCAD25 /* AppDelegate.m */,
 				865C32941B720CEF00FCAD25 /* ViewController.h */,
@@ -202,6 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865C32B41B7212D300FCAD25 /* radioButtonActiveHover.png in Resources */,
+				865C32B61B7212E200FCAD25 /* radioButtonDisabled.png in Resources */,
 				865C32991B720CEF00FCAD25 /* Main.storyboard in Resources */,
 				865C329E1B720CEF00FCAD25 /* LaunchScreen.xib in Resources */,
 				865C329B1B720CEF00FCAD25 /* Images.xcassets in Resources */,
